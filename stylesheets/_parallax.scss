@@ -1,0 +1,21 @@
+body , html {
+	height:100%;
+}
+
+.parallax{
+	background-attachment:fixed;
+	background-position : top center ; 
+	background-size: cover ; 
+
+}
+.p_project{
+	background-image:url();
+
+}
+.p_about{
+	background-image:url();
+
+}
+.p_contact{
+background-color:$primary-white;
+}

@@ -1,23 +1,30 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #FF0080 ;
+$font-standard: 'EB Garamond', serif;
+$fancy-font:'Satisfy', cursive;
+$primary-pink: #FF0080 ;
+$primary-black: #323232;
+$primary-white: #FFFFFF;
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+  font: 100% $font-standard;
+  color: $primary-pink;
 }
-
+.heading{
+	margin-top:90px;
+	font-size: 300%;
+	font-family: $fancy-font;
+	text-align:center;
+}
 nav{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
 	background-color:black;
-
 }
 
 ul{
-color :$primary-color;
+color :$primary-pink;
 display:inline-block;
-padding:14px 16px;
+padding:7px 8px;
 text-align:center;
 }
