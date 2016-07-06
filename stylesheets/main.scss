@@ -1,0 +1,23 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #FF0080 ;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+nav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+
+}
+
+ul{
+color :$primary-color;
+display:inline-block;
+padding:14px 16px;
+text-align:center;
+}
