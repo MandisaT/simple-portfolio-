@@ -1,9 +1,44 @@
+.p_project {
+  text-align: center;
+  padding: 300px 0;
+  background-color: #FF69B4;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.2s ease; }
+
+.p_about {
+  padding: 300px 0;
+  background-image: url(https://yuehuapainting.files.wordpress.com/2012/06/peonies.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.2s ease; }
+
+.p_contact {
+  padding: 300px 0;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.2s ease; }
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); }
+
 body {
-  font: 100% "EB Garamond", serif;
-  color: #FF0080; }
+  font: 100% "EB Garamond", serif; }
+
+.logo {
+  margin-top: 90px;
+  font-size: 300%;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  color: #FF69B4; }
 
 .heading {
-  margin-top: 90px;
+  margin-top: -90px;
   font-size: 300%;
   font-family: "Satisfy", cursive;
   text-align: center; }
@@ -13,12 +48,24 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black; }
+  background-color: black;
+  color: #FF69B4; }
+
+.bigfont {
+  font-size: 200%; }
+
+.project {
+  height: 200px;
+  width: 250px; }
 
 ul {
-  color: #FF0080;
+  color: #FF69B4;
   display: inline-block;
   padding: 7px 8px;
   text-align: center; }
+
+.headshot {
+  height: 500px;
+  width: 350px; }
 
 /*# sourceMappingURL=main.css.map */

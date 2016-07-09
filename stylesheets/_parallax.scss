@@ -1,21 +1,35 @@
-body , html {
-	height:100%;
-}
+$primary-pink:#FF69B4 ;
+$primary-black: #323232;
+$primary-white: #FFFFFF;
 
-.parallax{
-	background-attachment:fixed;
-	background-position : top center ; 
-	background-size: cover ; 
-
-}
 .p_project{
-	background-image:url();
+    text-align:center;
+	 padding: 300px 0;
+	background-color:$primary-pink;
+	background-size: cover;
+  	background-attachment: fixed;
+  	transition: all 0.2s ease;
 
 }
 .p_about{
-	background-image:url();
-
+	 padding: 300px 0;
+	background-image:url(https://yuehuapainting.files.wordpress.com/2012/06/peonies.jpg);
+  	background-size: cover;
+  	background-attachment: fixed;
+  	transition: all 0.2s ease;
 }
 .p_contact{
-background-color:$primary-white;
+	 padding: 300px 0;
+	text-align:center;
+ 	 background-size: cover;
+  	background-attachment: fixed;
+  	transition: all 0.2s ease;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
 }
