@@ -1,26 +1,53 @@
 .p_project {
   text-align: center;
-  padding: 300px 0;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: all 0.2s ease; }
+   }
 
 .p_about {
-  padding: 300px 0;
   background-color: #FF69B4;
-  background-size: cover;
-background-attachment: fixed;
-  transition: all 0.2s ease; 
+}
+.underline{
+ text-decoration: underline;
+}
+.skills{
+width :60px;
+height:40px;
+background-color:pink;
+text-align: center;
+}
+.skills:hover {
+width:150px;
 }
 
+.skills2{
+
+width :70px;
+height:40px;
+background-color:purple;
+text-align: center;
+}
+.skills2:hover{
+  width:90px;
+}
+.skills3{
+
+width :70px;
+height:40px;
+color:white;
+background-color:black;
+text-align: center;
+}
+.skills3:hover{
+  width:90px;
+}
 
 .headshot {
+  border-style : solid ;
   margin-top: -20px;
-  height: 400px;
+  height: 300px;
   width: 250px;
   margin-left:auto;
   margin-right:auto;
-  border-radius:90px;
+  border-radius:360px;
   display: block;
   clear:both;
    }
@@ -28,17 +55,17 @@ background-attachment: fixed;
   .para{
     margin-left: 0px;
     overflow: auto;
-    padding:100px;
-     border: 3px solid black;
+    padding:40px;
      border-radius 10px;
-    background-color:#ffffff;
-    opacity: 0.4;
     display: block;
+  }
+
+  .education{
+text-align: center;
   }
 
 
 .contactlogo{
-
    text-align: center;
 }
 
@@ -48,39 +75,13 @@ background-attachment: fixed;
 body {
   font: 100% "EB Garamond", serif; }
 
-.logo {
-  margin-top: 90px;
-  font-size: 300%;
-  font-family: "Satisfy", cursive;
-  text-align: center;
-  color: #FF69B4; }
 
-.heading {
-  margin-top: -90px;
-  font-size: 300%;
-  font-family: "Satisfy",cursive;
-  text-align: center; }
-
-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  color: #FF69B4; }
-
-.bigfont {
-  font-size: 200%; }
 
 .project {
   height: 300px;
   width: 350px; }
 
-ul {
-  color: #FF69B4;
-  display: inline-block;
-  padding: 7px 8px;
-  text-align: center; }
+
 
 
 /*# sourceMappingURL=main.css.map */
