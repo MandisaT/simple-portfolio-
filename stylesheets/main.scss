@@ -16,7 +16,9 @@ body{
 background-color:$main-pink;
 color:white;
 }
-
+.white{
+	color:white;
+}
 
 ul{
 	background-color:$main-blue;
@@ -51,7 +53,7 @@ padding:7px;
 .projectoverlay{
  text-align: center;
 background-color: black;
-opacity:0.7;
+opacity:0.8;
 position:absolute;
 display: none;
 height: 200px;
@@ -73,9 +75,12 @@ margin-right:60px;
 float:left;
 border-radius:30px;
 }
-
+.font{
+	font-size:100%;
+}
 .para{
 	margin-top:200px;
+	margin:3px;
 	padding:30px;
     width :650px;
     height:300px;
