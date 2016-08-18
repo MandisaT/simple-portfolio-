@@ -1,49 +1,83 @@
 
+@import 'gridsystem';
+$main-pink:#FF69B4;
+$main-blue:#81D8D0;
+$font-family: 'Special Elite', cursive;
 
-$font-standard: 'EB Garamond', serif;
-$fancy-font:'Satisfy', cursive;
-$primary-pink: #FF69B4 ;
-$primary-black: #323232;
-$primary-white: #FFFFFF;
+/////////////////////////////////
 
-body {
-  font: 100% $font-standard;
- 
-}
-.logo{
-	margin-top:90px;
-	font-size: 300%;
-	font-family: $fancy-font;
-	text-align:center;
-	 color: $primary-pink;
-}
-.projectlogo{
-margin-top:-90px;
-	font-size: 300%;
-	font-family: $fancy-font;
-	text-align:center;
-	
-}
-.contactlogo{
-	margin-top:-90px;
-	font-size: 300%;
-	font-family: $fancy-font;
+.center{
 	text-align:center;
 }
-.heading{
-	margin-top:-90px;
-	font-size: 300%;
-	font-family: $fancy-font;
-	text-align:center;
+body{
+background-color:$main-pink;
+color:white;
 }
+
+.navbar{
+
+}
+.push_down{
+	margin-top:50px;
+}
+ul{
+	background-color:$main-blue;
+	margin:0;
+	padding:0;
+}
+li a{
+display:block;
+
+}
+li{
+	float:left;
+	margin:4px;
+}
+
+.main_title{
+margin-top:250px;
+font-family:'special elite';
+font-size:300%;
+}
+.header{
+font-family:'special elite';
+font-size:200%;
+}
+
+///////////////////////////////////
+.projectoverlay{
+  text-align: center;
+background-color: black;
+opacity:0.7;
+position:absolute;
+display: none;
+height: 200px;
+width: 300px; 
+ margin-right :40px;
+}
+
 
 .project{
-	height:300px;
-	 width:350px;
+height:200px;
+width:300px;
 }
-
+///////////////////////////////
 .headshot{
-	height:500px;
-	width:350px;
-
+margin-top:150px;
+height:350px;;
+width:350px;
+margin-right:60px;
 }
+
+.para{
+	border: 4px solid black;
+	margin-top:200px;
+	float: right;
+	padding:40px;
+    width :400px;
+    height:200px;
+    margin-right: 40px;
+    color:$main-pink;
+    background-color:white;
+  }
+//////////////////////////////

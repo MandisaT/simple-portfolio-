@@ -1,102 +1,97 @@
-.p_project {
-  text-align: center;
-   }
-.header{
-  font-size:250%;
-  margin-top: 250px;
-  text-align: center;
-font-family: 'Bungee Shade', cursive;
-cursor: pointer;
-}
-.header2{
-  text-align: center;
- font-family: 'Mako', sans-serif;
-  font-size:200%;
-}
-h1:hover{
-  color:#81D8D0;
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
 
-}
-.standardfont{
-  font-family: 'Mako', sans-serif;
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
 
-}
+.col:first-child {
+  margin-left: 0; }
+
+.group:before,
+.group-after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.span_3 {
+  margin-top: 130px;
+  width: 30%;
+  color: pink; }
+
+.span_2 {
+  margin-top: 130px;
+  width: 30%; }
+
+.span_1 {
+  margin-top: 130px;
+  width: 30%; }
+
+.center {
+  text-align: center; }
 
 body {
   background-color: #FF69B4;
-   color:white;
-}
-.underline{
-  color:#81D8D0;
- text-decoration: underline;
-}
-.skillslogo{
-text-align:center;
+  color: white; }
 
-}
+.push_down {
+  margin-top: 50px; }
 
-.skills1{
-  
-text-align: center;
-}
+ul {
+  background-color: #81D8D0;
+  margin: 0;
+  padding: 0; }
 
+li a {
+  display: block; }
 
-.skills2{
+li {
+  float: left;
+  margin: 4px; }
 
-text-align: center;
-}
-li{
-text-align: center;
-  list-style-type: square;
-}
-.skills3{
+.main_title {
+  margin-top: 250px;
+  font-family: 'special elite';
+  font-size: 300%; }
 
-text-align: center;
-}
+.header {
+  font-family: 'special elite';
+  font-size: 200%; }
 
-
-.headshot {
-  border-style : solid ;
-  margin-top: -20px;
-  height: 300px;
-  width: 250px;
-  margin-left:auto;
-  margin-right:auto;
-  border-radius:360px;
-  display: block;
-  clear:both;
-   }
-
-  .para{
-    margin-left: 0px;
-    overflow: auto;
-    padding:40px;
-     border-radius 10px;
-    display: block;
-  }
-
-  .education{
-text-align: center;
-  }
-
-
-.contactlogo{
-   text-align: center;
-}
-
-.contact{
-   text-align: center;
-}
-body {
-  font: 100% "EB Garamond", serif; }
-
-
+.projectoverlay {
+  text-align: center;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  display: none;
+  height: 200px;
+  width: 300px;
+  margin-right: 40px; }
 
 .project {
-  height: 300px;
-  width: 350px; }
+  height: 200px;
+  width: 300px; }
 
+.headshot {
+  margin-top: 150px;
+  height: 350px;
+  width: 350px;
+  margin-right: 60px; }
 
-
+.para {
+  border: 4px solid black;
+  margin-top: 200px;
+  float: right;
+  padding: 40px;
+  width: 400px;
+  height: 200px;
+  margin-right: 40px;
+  color: #FF69B4;
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */
