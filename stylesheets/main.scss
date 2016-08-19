@@ -39,7 +39,7 @@ li{
 }
 /////////////////////
 .main_title{
-margin-top:250px;
+padding-top:250px;
 font-family:'special elite';
 font-size:300%;
 }
@@ -47,6 +47,9 @@ font-size:300%;
 font-family:'special elite';
 font-size:250%;
 padding:7px;
+}
+.regular{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 ///////////////////////////////////
@@ -67,6 +70,9 @@ height:200px;
 width:300px;
 }
 ///////////////////////////////
+.movedown{
+padding-top:150px;
+}
 .headshot{
 margin-top:150px;
 height:350px;
